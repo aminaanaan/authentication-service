@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.example.hotel.configuration.AppProperties",
+      "sourceType": "com.example.hotel.configuration.AppProperties"
+    },
+    {
+      "name": "app.auth",
+      "type": "com.example.hotel.configuration.AppProperties$Auth",
+      "sourceType": "com.example.hotel.configuration.AppProperties",
+      "sourceMethod": "getAuth()"
+    },
+    {
+      "name": "app.oauth2",
+      "type": "com.example.hotel.configuration.AppProperties$OAuth2",
+      "sourceType": "com.example.hotel.configuration.AppProperties",
+      "sourceMethod": "getOauth2()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
